@@ -13,6 +13,8 @@
   - After a specific timestamp.
   - By log type before a specific timestamp.
   - By log type after a specific timestamp.
+- Uses monotonic stack to store the logs in increasing order of time
+- Uses binary search to reduce time complexity to find the given timestamp
 
 ## Code Description
 
